@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  PersonView.swift
 //  PersonView
 //
 //  Created by Jan Hovland on 15/10/2019.
@@ -8,14 +8,16 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+
+struct Person_View: View {
     var body: some View {
-        Text("Hello, World!")
+        WelcomeView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Person_View()
     }
 }

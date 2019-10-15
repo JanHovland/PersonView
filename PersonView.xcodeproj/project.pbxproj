@@ -10,10 +10,11 @@
 		DBFA72232355B37C008F10CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72222355B37C008F10CD /* AppDelegate.swift */; };
 		DBFA72252355B37C008F10CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72242355B37C008F10CD /* SceneDelegate.swift */; };
 		DBFA72282355B37C008F10CD /* PersonView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72262355B37C008F10CD /* PersonView.xcdatamodeld */; };
-		DBFA722A2355B37C008F10CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72292355B37C008F10CD /* ContentView.swift */; };
+		DBFA722A2355B37C008F10CD /* Person_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72292355B37C008F10CD /* Person_View.swift */; };
 		DBFA722C2355B37D008F10CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFA722B2355B37D008F10CD /* Assets.xcassets */; };
 		DBFA722F2355B37D008F10CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBFA722E2355B37D008F10CD /* Preview Assets.xcassets */; };
 		DBFA72322355B37D008F10CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBFA72302355B37D008F10CD /* LaunchScreen.storyboard */; };
+		DBFA723A2355B4B6008F10CD /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72392355B4B6008F10CD /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +22,12 @@
 		DBFA72222355B37C008F10CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFA72242355B37C008F10CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DBFA72272355B37C008F10CD /* PersonView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonView.xcdatamodel; sourceTree = "<group>"; };
-		DBFA72292355B37C008F10CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBFA72292355B37C008F10CD /* Person_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person_View.swift; sourceTree = "<group>"; };
 		DBFA722B2355B37D008F10CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBFA722E2355B37D008F10CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DBFA72312355B37D008F10CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DBFA72332355B37D008F10CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBFA72392355B4B6008F10CD /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,8 @@
 			children = (
 				DBFA72222355B37C008F10CD /* AppDelegate.swift */,
 				DBFA72242355B37C008F10CD /* SceneDelegate.swift */,
-				DBFA72292355B37C008F10CD /* ContentView.swift */,
+				DBFA72292355B37C008F10CD /* Person_View.swift */,
+				DBFA72392355B4B6008F10CD /* WelcomeView.swift */,
 				DBFA722B2355B37D008F10CD /* Assets.xcassets */,
 				DBFA72302355B37D008F10CD /* LaunchScreen.storyboard */,
 				DBFA72332355B37D008F10CD /* Info.plist */,
@@ -149,9 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBFA723A2355B4B6008F10CD /* WelcomeView.swift in Sources */,
 				DBFA72282355B37C008F10CD /* PersonView.xcdatamodeld in Sources */,
 				DBFA72232355B37C008F10CD /* AppDelegate.swift in Sources */,
-				DBFA722A2355B37C008F10CD /* ContentView.swift in Sources */,
+				DBFA722A2355B37C008F10CD /* Person_View.swift in Sources */,
 				DBFA72252355B37C008F10CD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
