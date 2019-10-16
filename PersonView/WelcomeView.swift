@@ -25,7 +25,7 @@ struct WelcomeView: View {
             .aspectRatio(2/1.0, contentMode: .fill)
             .saturation(0.75)
             .blur(radius: 3)
-            .opacity(0.25)
+            .opacity(0.20)
         
     }
 }
