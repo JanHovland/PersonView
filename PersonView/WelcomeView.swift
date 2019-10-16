@@ -22,12 +22,10 @@ struct WelcomeView: View {
         Image("Cloudkit")
             .resizable()
             .scaledToFit()
-            .aspectRatio(3/4, contentMode: .fill)
-            // .aspectRatio(1/1, contentMode: .fill)
-            .edgesIgnoringSafeArea(.all)
+            .aspectRatio(1.0/1.0, contentMode: .fill)
             .saturation(0.75)
             .blur(radius: 3)
-            .opacity(0.35)
+            .opacity(0.25)
         
     }
 }
