@@ -15,7 +15,7 @@ struct WelcomeView: View {
     var body: some View {
         VStack (content: {
            WelcomeMessageView()
-            
+           
            TextField("Type your name", text: $name)
             .padding(EdgeInsets(top: 8, leading: 16,
                                 bottom: 8, trailing: 16))
