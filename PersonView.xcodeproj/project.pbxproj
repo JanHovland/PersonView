@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB3FFFC2235724FB002D42B7 /* WelcomeMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3FFFC1235724FB002D42B7 /* WelcomeMessageView.swift */; };
+		DB3FFFC423572573002D42B7 /* WelcomeBackgroundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB3FFFC323572573002D42B7 /* WelcomeBackgroundImage.swift */; };
 		DBFA72232355B37C008F10CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72222355B37C008F10CD /* AppDelegate.swift */; };
 		DBFA72252355B37C008F10CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72242355B37C008F10CD /* SceneDelegate.swift */; };
 		DBFA72282355B37C008F10CD /* PersonView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DBFA72262355B37C008F10CD /* PersonView.xcdatamodeld */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB3FFFC1235724FB002D42B7 /* WelcomeMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeMessageView.swift; sourceTree = "<group>"; };
+		DB3FFFC323572573002D42B7 /* WelcomeBackgroundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBackgroundImage.swift; sourceTree = "<group>"; };
 		DBFA721F2355B37C008F10CD /* PersonView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBFA72222355B37C008F10CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBFA72242355B37C008F10CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 				DBFA72242355B37C008F10CD /* SceneDelegate.swift */,
 				DBFA72292355B37C008F10CD /* Person_View.swift */,
 				DBFA72392355B4B6008F10CD /* WelcomeView.swift */,
+				DB3FFFC323572573002D42B7 /* WelcomeBackgroundImage.swift */,
+				DB3FFFC1235724FB002D42B7 /* WelcomeMessageView.swift */,
 				DBFA722B2355B37D008F10CD /* Assets.xcassets */,
 				DBFA72302355B37D008F10CD /* LaunchScreen.storyboard */,
 				DBFA72332355B37D008F10CD /* Info.plist */,
@@ -153,10 +159,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFA723A2355B4B6008F10CD /* WelcomeView.swift in Sources */,
+				DB3FFFC2235724FB002D42B7 /* WelcomeMessageView.swift in Sources */,
 				DBFA72282355B37C008F10CD /* PersonView.xcdatamodeld in Sources */,
 				DBFA72232355B37C008F10CD /* AppDelegate.swift in Sources */,
 				DBFA722A2355B37C008F10CD /* Person_View.swift in Sources */,
 				DBFA72252355B37C008F10CD /* SceneDelegate.swift in Sources */,
+				DB3FFFC423572573002D42B7 /* WelcomeBackgroundImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

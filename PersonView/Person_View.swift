@@ -8,11 +8,11 @@
 
 import SwiftUI
 
-
-
 struct Person_View: View {
     var body: some View {
-        WelcomeView()
+        VStack {
+            WelcomeView()
+        }
     }
 }
 
