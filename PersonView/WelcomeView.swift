@@ -28,6 +28,8 @@ struct WelcomeView: View {
                      )
                      .shadow(color: Color.gray.opacity(0.4),
                              radius: 3, x: 1, y: 2)
+                     .keyboardType(.default)
+                     .autocapitalization(.words)
             
             TextField("Type your email", text: $eMail)
                       .padding(EdgeInsets(top: 8, leading: 16,
